@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background: linear-gradient(90deg, #30c6f7 7.26%, #4f75ff 92.88%);
+}
+nav .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f5f5f5;
+}
+nav .navbar-nav .nav-item .active {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.hero-section {
+  padding-top: 70px;
+  background: linear-gradient(97.52deg, #30c6f7 11.89%, #4f75ff 86.21%);
+}
+.hero-section .tag {
+  font-weight: 600;
+  font-size: 56px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+.hero-section .desc {
+  font-weight: 400;
+  font-size: 22px;
+  color: #f5f5f5;
+  margin-bottom: 46px;
+}
+.hero-section .hero-image {
+  max-width: 100%;
+}
+.hero-section .wave .wave-effect {
+  width: 100%;
+}
+
+.first-section {
+  padding: 64px 0px;
+  background-color: #ffffff;
+}
+.first-section .tag {
+  font-weight: 500;
+  font-size: 46px;
+  color: #1f2d4b;
+  margin-bottom: 4px;
+}
+.first-section .desc {
+  font-weight: 400;
+  font-size: 20px;
+  color: #9a9595;
+  margin-bottom: 0;
+}
+
+main {
+  background: linear-gradient(180deg, #30c6f7 6.98%, #3e68d7 75.44%);
+}
+main .second-wave {
+  width: 100%;
+}
+main section {
+  padding: 64px 0px;
+}
+main section .tag {
+  font-weight: 500;
+  font-size: 46px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+main section .image-section {
+  max-width: 100%;
+}
+main section .desc {
+  font-weight: 400;
+  font-size: 20px;
+  color: #f5f5f5;
+  margin-bottom: 0;
+  max-width: 555px;
+}
+main section .btn-primary {
+  margin-top: 34px;
+  padding: 12px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #31c2f7;
+  border: none;
+  border-radius: 12px;
+}
+main section .caption {
+  font-weight: 400;
+  font-size: 20px;
+  color: #f5f5f5;
+  margin-top: 36px;
+  max-width: 555px;
+}
+main .meeting-booking .desc {
+  max-width: 847px;
+}
+main footer .col-md-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main footer .col-md-4 .logo {
+  width: 195px;
+}
+main footer .col-md-4 .desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f5f5f5;
+  max-width: 360px;
+}
+main footer .col-md-4 .title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+main footer .col-md-4 .link {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: 400;
+  font-size: 16px;
+}
+main footer .footer-bottom {
+  padding: 30px 0px;
+  border-top: 1px solid #b6d3f8;
+}
+main footer .footer-bottom p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .hero-section .hero-image {
+    display: none;
+  }
+  .hero-section .tag {
+    font-size: 36px;
+  }
+  .hero-section .desc {
+    font-size: 18px;
+  }
+  .first-section {
+    padding: 36px 0px;
+  }
+  .first-section .image-section {
+    display: none;
+  }
+  .first-section .tag {
+    font-size: 26px;
+  }
+  .first-section .desc {
+    font-size: 16px;
+  }
+  main section {
+    padding: 26px 0px;
+  }
+  main section .image-section {
+    display: none;
+  }
+  main section .tag {
+    font-size: 26px;
+  }
+  main section .desc {
+    font-size: 16px;
+  }
+  main .meeting-booking header {
+    margin-bottom: 36px;
+  }
+  main footer .col-md-4 {
+    display: block !important;
+  }
+  main footer .footer-link {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero-section .hero-image {
+    width: 100%;
+  }
+  .hero-section .tag {
+    font-size: 36px;
+  }
+  .hero-section .desc {
+    font-size: 18px;
+  }
+  .first-section {
+    padding: 36px 0px;
+  }
+  .first-section .image-section {
+    width: 100%;
+  }
+  .first-section .tag {
+    font-size: 26px;
+  }
+  .first-section .desc {
+    font-size: 16px;
+  }
+  main section {
+    padding: 64px 0px;
+  }
+  main section .image-section {
+    width: 100%;
+  }
+  main section .tag {
+    font-size: 26px;
+  }
+  main section .desc {
+    font-size: 16px;
+  }
+  main .meeting-booking header {
+    margin-bottom: 36px;
+  }
+  main footer .col-md-4 {
+    display: block !important;
+  }
+  main footer .footer-link {
+    margin-bottom: 36px;
+  }
+}/*# sourceMappingURL=style.css.map */

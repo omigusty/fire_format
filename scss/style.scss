@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+$light: #f5f5f5;
+$white: #ffffff;
+$dark: #1f2d4b;
+$gray: #9a9595;
+$light-blue: #31c2f7;
+
+nav {
+  background: linear-gradient(90deg, #30c6f7 7.26%, #4f75ff 92.88%);
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+      }
+      .active {
+        font-weight: 500;
+        font-size: 16px;
+        color: $white;
+      }
+    }
+  }
+}
+
+.hero-section {
+  padding-top: 70px;
+  background: linear-gradient(97.52deg, #30c6f7 11.89%, #4f75ff 86.21%);
+  .tag {
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 12px;
+    color: $white;
+  }
+  .desc {
+    font-weight: 400;
+    font-size: 22px;
+    color: $light;
+    margin-bottom: 46px;
+  }
+  .hero-image {
+    max-width: 100%;
+  }
+  .wave {
+    .wave-effect {
+      width: 100%;
+    }
+  }
+}
+
+.first-section {
+  padding: 64px 0px;
+  background-color: $white;
+  .tag {
+    font-weight: 500;
+    font-size: 46px;
+    color: $dark;
+    margin-bottom: 4px;
+  }
+  .desc {
+    font-weight: 400;
+    font-size: 20px;
+    color: $gray;
+    margin-bottom: 0;
+  }
+}
+
+main {
+  background: linear-gradient(180deg, #30c6f7 6.98%, #3e68d7 75.44%);
+  .second-wave {
+    width: 100%;
+  }
+  section {
+    padding: 64px 0px;
+    .tag {
+      font-weight: 500;
+      font-size: 46px;
+      color: $white;
+      margin-bottom: 4px;
+    }
+    .image-section {
+      max-width: 100%;
+    }
+    .desc {
+      font-weight: 400;
+      font-size: 20px;
+      color: $light;
+      margin-bottom: 0;
+      max-width: 555px;
+    }
+
+    .btn-primary {
+      margin-top: 34px;
+      padding: 12px 22px;
+      font-weight: 500;
+      font-size: 16px;
+      color: $white;
+      background-color: $light-blue;
+      border: none;
+      border-radius: 12px;
+    }
+
+    .caption {
+      font-weight: 400;
+      font-size: 20px;
+      color: $light;
+      margin-top: 36px;
+      max-width: 555px;
+    }
+  }
+
+  .meeting-booking {
+    .desc {
+      max-width: 847px;
+    }
+  }
+
+  footer {
+    .col-md-4 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .logo {
+        width: 195px;
+      }
+      .desc {
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+        max-width: 360px;
+      }
+
+      .title {
+        font-weight: 500;
+        font-size: 16px;
+        color: $white;
+      }
+
+      .link {
+        text-decoration: none;
+        color: $light;
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+    .footer-bottom {
+      padding: 30px 0px;
+      border-top: 1px solid #b6d3f8;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Responsive Mobile
+@media (max-width: 767.98px) {
+  .hero-section {
+    .hero-image {
+      display: none;
+    }
+    .tag {
+      font-size: 36px;
+    }
+    .desc {
+      font-size: 18px;
+    }
+  }
+  .first-section {
+    padding: 36px 0px;
+    .image-section {
+      display: none;
+    }
+
+    .tag {
+      font-size: 26px;
+    }
+
+    .desc {
+      font-size: 16px;
+    }
+  }
+  main {
+    section {
+      padding: 26px 0px;
+
+      .image-section {
+        display: none;
+      }
+
+      .tag {
+        font-size: 26px;
+      }
+
+      .desc {
+        font-size: 16px;
+      }
+    }
+
+    .meeting-booking {
+      header {
+        margin-bottom: 36px;
+      }
+    }
+
+    footer {
+      .col-md-4 {
+        display: block !important;
+      }
+      .footer-link {
+        margin-bottom: 36px;
+      }
+    }
+  }
+}
+
+// Responsive Tablet
+@media (max-width: 991.98px) {
+  .hero-section {
+    .hero-image {
+      width: 100%;
+    }
+    .tag {
+      font-size: 36px;
+    }
+    .desc {
+      font-size: 18px;
+    }
+  }
+  .first-section {
+    padding: 36px 0px;
+    .image-section {
+      width: 100%;
+    }
+    .tag {
+      font-size: 26px;
+    }
+    .desc {
+      font-size: 16px;
+    }
+  }
+
+  main {
+    section {
+      padding: 64px 0px;
+      .image-section {
+        width: 100%;
+      }
+      .tag {
+        font-size: 26px;
+      }
+      .desc {
+        font-size: 16px;
+      }
+    }
+    .meeting-booking {
+      header {
+        margin-bottom: 36px;
+      }
+    }
+    footer {
+      .col-md-4 {
+        display: block !important;
+      }
+      .footer-link {
+        margin-bottom: 36px;
+      }
+    }
+  }
+}
